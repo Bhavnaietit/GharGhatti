@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background:#c33333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.navbar .para{
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+   
+}
+.navbar2 {
+        background:#ffa;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+}
+
+
+
+.navbar3 {
+    background: grey;
+    display: flex;
+    align-items: center;
+    padding: 5px 5px 5px 10px;
+}
+.navbar3  a{
+    text-decoration: none;
+    font-size: small;
+    color: #fff;
+    margin: 5px 5px 5px 10px;
+}
+
+/* item */
+.item{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.item .img{
+    border-right: 1.5px solid grey ;
+    padding: 2px;
+    padding-right: 4px;
+    /* background-color: #c33333; */
+    width: 50%;
+    margin: 0;
+}
+.item .info{
+    width: 50%;
+    padding:10px ;
+}
+
+.item .info h3{
+    font-weight: 600;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.item .info #item-price{
+    font-size: 15px;
+     color: rgb(90, 80, 80);
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+#about-item{
+    font-size: 13px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+#item-size{
+    font-size: 15px;
+        color: rgb(90, 80, 80);
+        margin:10px 5px;
+}
+
+#btns{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+} 
+#item-like{
+    align-self: center;
+     margin: 20px;
+     padding: 5px;
+     background: #fff;
+     border: 1px solid gainsboro;
+     
+}
+#item-like :hover{
+    cursor: pointer;
+}
+
+#item-quantity{
+    width: 100px;
+    max-height:40px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid gainsboro;
+    background: transparent;
+}
+#item-quantity:hover{
+    background: gainsboro;
+    cursor: pointer;
+}
+
+#item-quantity  button{
+   background: transparent;
+   border: none;
+   cursor: pointer;
+}
+#item-quantity button:hover{
+    font-size: 12px;
+    position: relative;
+}
+
+.item-info {
+    font-size: 12px;
+    color: rgb(115, 112, 112);
+}
+#description-box{
+    padding-top: 10px;
+    background-color:#ffa;
+    height: auto;
+    padding: 10px;
+}
+#description-box #heading{
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+#description-box #descriptions {
+    width: 100%;
+    height: 10%;
+    font-size: 10px;
+    padding-top: 10px;
+}
+#card {
+    background: #c33333;
+    text-align: center;
+    margin: 10px 0;
+    border-radius: 50px;
+    width: 60%;
+    position:relative;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#card button {
+
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    border: 10px solid transparent;
+
+}
+
+#card button:hover {
+    color: #000;
+}
+.container {
+    min-height: 80vh;
+    padding: 10px 0 10px;
+    background-color: #ECEFFE;
+    box-sizing: border-box;
+}
+
+.card-wrapper {
+    max-width: 1100px;
+    margin: 0 50px 35px;
+    padding: 30px 10px;
+    overflow: hidden;
+}
+
+.card-list .card-item {
+    list-style: none;
+}
+
+
+.card-list .card-item .card-link {
+    user-select: none;
+    display: block;
+    background-color: #fff;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.2s ease;
+}
+
+.card-list .card-item .card-link:active {
+    cursor: grabbing;
+}
+
+.card-list .card-item .card-link:hover {
+    border-color: #B22485;
+}
+
+.card-list .card-link .card-image {
+    width: 100%;
+    aspect-ratio: 15/9;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-list .card-link .badge {
+    color: #B22485;
+    margin: 5px 0 5px;
+    background: #F7DFF5;
+    padding: 8px 8px;
+    font-size: .6rem;
+    font-weight: 500;
+    width: fit-content;
+    border-radius: 50px;
+}
+
+.card-list .card-link .badge.Spices {
+    color: #B22485;
+    background: #F7DFF5;
+}
+
+.card-list .card-link .card-title {
+    font-size: .7rem;
+    color: #000;
+    font-weight: 600;
+}
+
+.card-list .card-link .card-button {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 10px 0 5px;
+    border: 2px solid #B22485;
+    color: #B22485;
+    cursor: pointer;
+    transform: rotate(-45deg);
+    transition: .4s ease;
+}
+
+.card-list .card-link .card-button:hover {
+    background: #B22485;
+    color: #fff;
+}
+
+.card-wrapper .swiper-pagination-bullet {
+    height: 5px;
+    width: 5px;
+    opacity: 0.5;
+    background: #B22485;
+}
+
+.card-wrapper .swiper-pagination-bullet-active {
+    opacity: 1;
+}
+
+@media screen and (max-width:768px) {
+    .card-wrapper {
+        margin: 0 10px 25px;
+    }
+
+    .card-wrapper .swiper-slide-btn {
+        display: none;
+    }
+}
+
+/* footer */
+#footer {
+    margin-top: 10px;
+    height: 50%;
+    background: rgb(72, 9, 22);
+    padding-bottom: 10px;
+}
+
+#innerFoot {
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxes {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    margin: 3px;
+    width: 24%;
+    height: 100%;
+    font-size: small;
+}
+
+.boxes p {
+    margin: 7px;
+    font-size: small;
+}
+
+#footer p {
+    color: aliceblue;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#last {
+    font-size: larger;
+}

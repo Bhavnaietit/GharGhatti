@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: #c33333;
+    padding: 10px;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar .para {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+
+}
+.navbar2{
+    background-color: rgb(188, 188, 188);
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#form-box{
+    /* background-color: brown; */
+    display: flex;
+    justify-content:center;
+    min-height: 400px;
+    
+}
+form{
+    width: 400px;
+    padding-left: 10px;
+    color:rgb(19, 19, 71)
+}
+form fieldset{
+    border: 1px solid gray;
+    /* margin: 5px 20px 5px 0; */
+    width: 100%;
+    padding: 5px;
+}
+form fieldset input {
+    border: 1px solid gray;
+        width: 28%;
+}
+form p{
+    text-align: center;
+}
+form p input{
+    background: grey;
+    color: white;
+    border-radius: 50px;
+    padding: 5px;
+    padding: 5px;
+    cursor: pointer;
+   
+}
+
+form input{
+    padding: 2px;
+    margin: 10px;
+    width: auto;
+    outline: none;
+    border: 1px solid rgb(242, 240, 240);
+}
+
+form input:hover {
+    margin: 10px;
+    border: 1px solid rgb(166, 163, 163);
+}
+
+#resetBtn {
+    padding: 5px;
+    margin: 10px;
+    width: 100px;
+    outline: none;
+    border: 1px solid rgb(242, 240, 240);
+}
+
+ #resetBtn:hover {
+    margin: 10px;
+    border: 1px solid rgb(166, 163, 163);
+}
+
+.summary{
+  background:#ffa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+#btn{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(168, 165, 165);
+}
+#btn button{
+    padding: 5px;
+    width: 100px;
+    background: brown;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 50px;
+}
+#btn button:hover{
+    color: #000;
+    background-color: white;
+    cursor: pointer;
+}

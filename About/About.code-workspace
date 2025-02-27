@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "About",
+			"path": "."
+		},
+		{
+			"name": "BankingInfo",
+			"path": "../BankingInfo"
+		},
+		{
+			"name": "GharGhatti",
+			"path": "../../../Resume/GharGhatti"
+		},
+		{
+			"name": "contact",
+			"path": "../contact"
+		}
+	],
+	"settings": {}
+}

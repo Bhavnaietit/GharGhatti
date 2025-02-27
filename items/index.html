@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order page</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styling.css">
+    <!-- <link rel="stylesheet" href="slidingStyle.css"> -->
+    
+</head>
+<body>
+  <!-- <iframe width="914" height="514" src="https://www.youtube.com/embed/wsTv9y931o8" title="Learn CSS Flexbox in 20 Minutes (Course)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+    <div class="navbar">
+        <div class="nav-content">
+          <p class="para"><i class="fa-sharp fa-solid fa-truck"></i> Now Shipping across India!</p>
+          <a href="#">Track My Order</a>
+          <p class="para">Free Delivery on Order above Rs.800/-</p>
+        </div>
+    </div>
+
+    <div class="navbar2">
+      <div class="nav-box1">
+       <!-- icon of list -->
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="nav-box2">
+      <img src="/Photos/15.jpg" alt="icon" height="50px"  width="90px">
+      </div>
+      <div class="nav-box2">
+        <img src="/Photos/logo.jpg" alt="icon" height="46px" width="90px">
+      </div>
+      <div class="nav-box2">
+        <img src="/Photos/43.jpg" alt="icon" height="50px" width="70px">
+      </div>
+      <div class="nav-box3">
+          <!-- icon of login/shop/search -->
+        <a href="/HomePage/index.html"><i class="fa-solid fa-house"></i></a>
+       <a href="/LoginSignup/login.html"><i class="fa-solid fa-user"></i></a>
+       <!-- <a href="/HomePage/"><i class="fa-solid fa-magnifying-glass"></i></a> -->
+    
+      </div>
+    </div>
+
+    <div class="navbar3">
+        <a href="/HomePage/index.html">Home </a>
+        <a href="/Spices/home.html">All Products</a>
+       <a href="/Spices/home.html"><i class="fa-solid fa-shop"></i></a>
+    </div>
+       
+<div class="item">
+  <div class="img">
+<img src="/Photos/packet.jpg" alt="" width="100%" >
+<!-- <img src="packet.jpg" alt="" width="100%"> -->
+  </div>
+<div class="info">
+  <h3 id="item-name"></h3>
+  <p id="item-price">Rs.<span id="price"></span>/-</p>
+  <p id="about-item"> </p>
+  <p id="item-size"> Weight:<span id="weight">  </sapn></p>
+  <div id="btns">
+     <div id="item-quantity">
+     <button><i class="fa-solid fa-plus" id="max"></i></button>
+     <p id="val">0</p>
+     <button><i class="fa-solid fa-minus " id="min"></i></button>
+     </div>
+  <button id="item-like">
+    <i class="fa-regular fa-heart"></i> 
+    <p id="count"></p>
+  </button>
+</div>
+  <p class="item-info"> Vendor: <span id="vendor">GharGhati- Spices</span></p>
+  <p class="item-info"> Avaliability:<span id="avaliability"></span></p>
+  <p class="item-info"> Categories: <span id="categories"></span></p>
+  <!-- <p id="card"><button id="btn">ADD TO CART </button></p> -->
+</div>
+</div>
+
+<!-- description -->
+ <div id="description-box">
+<p id="heading">-: Description :-</p>
+  <p id="descriptions">
+
+  </p>
+ </div>
+
+     <!-- footer -->
+  <div id="footer">
+    <div id="innerFoot">
+      <div id="productServices" class="boxes">
+        <h3>PRODUCT SERVICES</h3>
+        <br>
+        <hr>
+        <p>Turmeric powder</p>
+        <p>Chilly powder</p>
+        <p>Coriander powder</p>
+        <p>Garam powder</p>
+        <p>Garam masala powder</p>
+        <p> Roasted jeera powder</p>
+        <p>Dates pickel</p>
+        <p>Udad mogar flour</p>
+        <p>Pulses wheat flour</p>
+      </div>
+      <div id="About-us" class="boxes">
+        <h3>ABOUT US</h3>
+        <br>
+        <hr>
+        <p>we feature an exhaustive array of excellent quality of spices inspired by the taste of Indian
+          folks.Myriad range of spices are offered by the Ghar-Ghatti-Spices</p>
+      </div>
+  
+      <div id="contact-us" class="boxes">
+        <h3>CONTACT US</h3>
+        <br>
+        <hr>
+        <p>Phone: +9179065696</p>
+        <p> Email: gharghattispices@gmail.com</p>
+        <p> Address:Ward 2 behind bsnl tower sanwer Dist Indore Pin 453551 </p>
+      </div>
+    </div>
+    <hr>
+    <p id="last">-: OUR VISION :-</p>
+    <p>"RURAL WOMEN EMPOWERMENT"</p>
+  </div>
+ 
+ <script src="script.js"></script>
+</body>
+</html>

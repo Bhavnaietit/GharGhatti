@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking info & customer detail</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-content">
+            <p class="para"><i class="fa-sharp fa-solid fa-truck"></i> Now Shipping across India!</p>
+            <a href="#">Track My Order</a>
+            <p class="para">Free Delivery on Order above Rs.800/-</p>
+        </div>
+    </div>
+    <div class="navbar2">
+        <h3>Payment</h3>
+        </div>
+
+    <!-- form for payment -->
+ <div id="form-box">
+    <form action="">
+    <label for="name"></label>
+        Fullname: <input type="text" placeholder="Enter your name" id="name">
+    <br>
+        <label for="phnNo"></label>
+        Phone: <input type="number" placeholder="Enter your phn number" id="phnNo">
+    <br>
+    <label for="dob"></label>
+          BOD: <input type="date"  id="dob">
+    <br>
+        <label for="email"></label>
+        Email:  <input type="email" placeholder="Enter your email" id="email">
+    <br>
+
+        <fieldset>
+            <legend> Address: </legend>
+            State: <input type="text">
+            District: <input type="text">
+            City: <input type="text">
+            Pincode: <input type="text">
+        </fieldset>
+    <br>
+        <fieldset>
+            <legend> Delivery Address: </legend>
+            State: <input type="text">
+            District: <input type="text">
+            City: <input type="text">
+            Pincode: <input type="text">
+           
+        </fieldset>
+        <br>
+        <p><input id="resetBtn" type="reset" value="Reset"></p>
+    </form>
+ </div>
+
+ <div class="summary">
+    <div>Total Price:</div>
+    <div> 500 </div>
+ </div>
+
+<!-- coonect to bank -->
+<div id="btn">
+    <a href="/PaymentMode/index.html">
+    <button>Pay Now</button>
+    </a>
+</div>
+
+</body>
+</html>
