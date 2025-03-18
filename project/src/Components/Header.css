@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    background: rgb(72, 9, 22);
+    justify-content: flex-start;
+    width: 100%;
+    padding: 5px;
+    margin-top: 0%;
+    z-index: 0;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 15px;
+    font-family: cursive;
+}
+.header-list{
+list-style: none;
+}
+.non-underline{
+    color:antiquewhite;
+    text-decoration: none;
+}
+.underline{
+    color: rgb(65, 4, 248);
+}
+
+
+ 
+#header2{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 30%;
+    padding:4px;
+    
+}
+.search-box{
+   margin:10px;
+   width: 100px;
+   border: 1px solid transparent;
+   border-radius: 50px;
+   margin: 10px;
+}
+ /* search bar  */
+#search {
+    height: 30px;
+    width: 350px;
+    display: flex;
+    border: 1px solid rgb(208, 199, 199);
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 12px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+}
+#search input {
+    outline: none;
+    border: 0;
+    font-size: medium;
+    width: 300px;
+    height: 30px;
+}
+
+#search button {
+    padding: 2px;
+    outline: none;
+    border: 0;
+    height: 30px;
+    background: white;
+}
+#categorySelect {
+    text-align: center;
+    outline: none;
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    border: 0;
+    border: 1px solid rgb(208, 199, 199);
+    border-radius: 50px;
+}
+
+@media (max-width:800px) and (min-Width:0px) {
+.search-box {
+        margin: 10px;
+        width: 100px;
+        border: 1px solid transparent;
+        border-radius: 50px;
+        margin: 10px;
+    }
+    #search {
+        height: 20px;
+        width: 250px;
+
+    }
+
+    #search input {
+        width: 200px;
+        height: 20px;
+    }
+
+    #search button {
+        height: 30px;
+    }
+                #categorySelect {
+            
+            height: 30px;
+            width: 100px;
+            font-size: 18px;
+        }
+}

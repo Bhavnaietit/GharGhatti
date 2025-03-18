@@ -1,0 +1,174 @@
+
+.navbar2 {
+    background: #ffa;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:15px;
+}
+
+
+
+.navbar3 {
+    background: grey;
+    display: flex;
+    align-items: center;
+    padding: 5px 5px 5px 10px;
+}
+
+.navbar3 a {
+    text-decoration: none;
+    font-size: small;
+    color: #fff;
+    margin: 5px 5px 5px 10px;
+}
+/* item */
+.item {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.item .img {
+    border-right: 1.5px solid grey;
+    padding-right: 4px;
+    width: 50%;
+    margin: 0;
+    padding: 10px;
+}
+.img img{
+    height: 80%;
+    width: 80%;
+}
+
+.item .info {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item .info h3 {
+    font-weight: 600;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.item .info #itemPrice {
+    font-size: 15px;
+    color: rgb(90, 80, 80);
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+#aboutItem {
+    font-size: 13px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+#itemSize {
+    font-size: 15px;
+    color: rgb(90, 80, 80);
+    margin: 10px 5px;
+}
+
+#btns {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#Like {
+    align-self: center;
+    margin: 20px;
+    padding: 5px;
+    background: #fff;
+    border: 1px solid gainsboro;
+
+}
+
+#Like :hover {
+    cursor: pointer;
+}
+
+#quantity {
+    width: 100px;
+    max-height: 40px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid gainsboro;
+    background: transparent;
+}
+
+#quantity:hover {
+    background: gainsboro;
+    cursor: pointer;
+}
+
+#quantity button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#quantity button:hover {
+    font-size: 12px;
+    position: relative;
+}
+
+.item-info {
+    font-size: 12px;
+    color: rgb(115, 112, 112);
+}
+#descriptionBox {
+    padding-top: 10px;
+    background-color: #ffa;
+    height: auto;
+    padding: 10px;
+}
+
+ #heading {
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+#descriptions {
+    width: 100%;
+    height: 10%;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+#card {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card button {
+    color: #fff;
+    cursor: pointer;
+    border: 10px solid transparent;
+    width: 200px;
+    background-color: brown;
+    border-radius: 50px;
+}
+
+#card button:hover {
+    color: #000;
+}

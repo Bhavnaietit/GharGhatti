@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    justify-content: center;
+        background-color: burlywood;
+
+}
+table{
+        background-color: rgb(255, 254, 253);
+    margin: 10px;
+    width: 80%;
+}
+table,th,td{
+    padding: 2px;
+    text-align: center;
+    padding: 10px;
+    border: .1px solid gray;
+    border-collapse: collapse;
+}
+td input{
+   text-align: center;
+    background: none;
+    border: 0;
+    width: 50px;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.img img{
+    height: 100px;
+    width: 100px;
+}
+.total{
+    display: flex;
+    
+}

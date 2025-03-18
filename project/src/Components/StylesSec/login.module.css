@@ -1,0 +1,30 @@
+.loginPage{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(red,purple);
+}
+.input{
+    overflow: hidden;
+    border: 1px solid gray;
+}
+.loginPage button{
+    width: 5rem;
+    border: 1px solid gray;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: .2rem;
+}
+.loginPage p {
+ color: rgb(167, 120, 248);
+}
+@media (width<=1000px) {
+    .loginPage{
+        height: 300px;
+        width: 300px;
+    }
+}

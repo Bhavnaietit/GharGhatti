@@ -1,0 +1,51 @@
+.mainBox{
+    background-color: rgb(252, 254, 176);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.formContainer {
+    height: 600px;
+    width: 1000px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formImg{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 400px;
+    width: 400px;
+}
+.formImg img{
+    height: 400px;
+    width: 400px;
+}
+
+
+@media (width<=1000px)  {
+    .formContainer {
+            height: 600px;
+            width: 600px;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .formImg {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            width: 300px;
+        }
+    
+        .formImg img {
+            height: 300px;
+            width: 300px;
+        }
+}
